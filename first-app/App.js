@@ -5,11 +5,13 @@ export default function App() {
     <View style={styles.container}>
       {/* 2. Adicione a imagem abaixo */}
       <Image 
-        source={require()} 
+        source={require('./assets/spiderman 2099 wallpaper.png')} 
         style={styles.minhaImagem} 
       />
       
       <Text>Averiguando possível resenha</Text>
+
+      <object
     </View>
   );
 }
