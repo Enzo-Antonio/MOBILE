@@ -1,12 +1,10 @@
 import { StyleSheet, Text, View} from 'react-native';
-import Lista01 from './jsx_exercises/lista-01';
-import Lista02 from './jsx_exercises/lista-02';
-import Lista03 from './jsx_exercises/lista-03';
+import ViewScaffold from './basic_components/view_examples_01';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Lista03/>
+      <ViewScaffold />
     </View>
   );
 }
