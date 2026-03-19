@@ -1,11 +1,16 @@
 import { View, Text, StyleSheet } from "react-native";
 
-export default function ViewScaffold() {
+export default function ViewScaffold2() {
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>View e Flexbox</Text>
       <View style={styles.exemplo}>
-        <View style={{flexDirection: "row", gap: 8, height}}>
+        <View style={{
+          flexDirection: "row", 
+          gap: 8, 
+          justifyContent: "center",
+          alignItems: "flex-start"
+          }}>
             <View style={[styles.box, {flex: 1}]}>
                 <Text>1</Text>
             </View>

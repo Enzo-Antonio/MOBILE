@@ -1,10 +1,15 @@
-import { StyleSheet, Text, View} from 'react-native';
-import ViewScaffold from './basic_components/view_examples_01';
+import { StyleSheet, Text, View } from "react-native";
+import ExercicioView01 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_1-2";
+import ExercicioView02 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_3-4";
+import ExercicioView03 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_5";
+import ExercicioView04 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_6";
+import ExercicioView05 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_7";
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ViewScaffold />
+      <ExercicioView05 />
     </View>
   );
 }
@@ -12,8 +17,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f3ff4e',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#ffffff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
