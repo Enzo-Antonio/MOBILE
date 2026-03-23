@@ -1,17 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function ExercicioView05() {
+export default function ExercicioView06() {
   return (
   <View style={styles.container}>
-    <View style={styles.row}>
+    <View style={styles.column}>
         <View style={styles.redBox}></View>
         <View style={styles.greenBox}></View>
-    </View>
-    <View style={styles.row}>
-          <View style={styles.blueBox}></View>
         <View style={styles.yellowBox}></View>
-    </View>
   </View>
+</View>
   );
 }
 
@@ -27,8 +24,8 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "bold",
   },
-  row: {
-    flexDirection: 'row',
+  column: {
+    flexDirection: column,
     flex: 1,
     gap: 10,
   },
@@ -36,26 +33,15 @@ const styles = StyleSheet.create({
     height: '90%',
     width: '50%',
     backgroundColor: "red",
-    alignItems: "center",
-    justifyContent: "center",
   },
   greenBox: {
     height: '90%',
     width: '50%',
     backgroundColor: "green",
   },
-  blueBox: {
-    height: '90%',
-    width: '50%',
-    backgroundColor: "blue",
-    alignItems: "center",
-    justifyContent: "center",
-  },
   yellowBox: {
     height: '90%',
     width: '50%',
     backgroundColor: "yellow",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });

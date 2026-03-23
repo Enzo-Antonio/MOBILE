@@ -4,12 +4,13 @@ import ExercicioView02 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exe
 import ExercicioView03 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_5";
 import ExercicioView04 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_6";
 import ExercicioView05 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_7";
+import ExercicioView06 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_8";
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView05 />
+      <ExercicioView06 />
     </View>
   );
 }

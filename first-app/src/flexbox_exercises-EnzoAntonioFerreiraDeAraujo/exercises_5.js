@@ -21,14 +21,6 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "bold",
   },
-  redBox: {
-    height: 80,
-    width: 80,
-
-    backgroundColor: "red",
-    alignItems: "center",
-    justifyContent: "center",
-  },
   greenBox: {
     height: '100%',
     width: '50%',
