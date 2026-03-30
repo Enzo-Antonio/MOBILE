@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import ExercicioView07 from "./somativa_exercises-EnzoAntonioFerreiraDeAraujo/exercicio-1";
 import ExercicioView08 from "./somativa_exercises-EnzoAntonioFerreiraDeAraujo/exercicio-2";
+import ExercicioView06 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_8";
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView08 />
+      <ExercicioView06 />
     </View>
   );
 }
