@@ -1,16 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
-import ExercicioView01 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_1-2";
-import ExercicioView02 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_3-4";
-import ExercicioView03 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_5";
-import ExercicioView04 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_6";
-import ExercicioView05 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_7";
-import ExercicioView06 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_8";
+import ExercicioView07 from "./somativa_exercises-EnzoAntonioFerreiraDeAraujo/exercicio-1";
+import ExercicioView08 from "./somativa_exercises-EnzoAntonioFerreiraDeAraujo/exercicio-2";
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView06 />
+      <ExercicioView08 />
     </View>
   );
 }
