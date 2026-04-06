@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
-import ExercicioView07 from "./somativa_exercises-EnzoAntonioFerreiraDeAraujo/exercicio-1";
-import ExercicioView08 from "./somativa_exercises-EnzoAntonioFerreiraDeAraujo/exercicio-2";
-import ExercicioView06 from "./flexbox_exercises-EnzoAntonioFerreiraDeAraujo/exercises_8";
-
+import PropsExercise1 from "./props_exercises - EnzoAntonioFerreiraDeAraujo/exercicio-1"
+import PropsExercise2 from "./props_exercises - EnzoAntonioFerreiraDeAraujo/exercicio-2";
+import PropsExercise3 from "./props_exercises - EnzoAntonioFerreiraDeAraujo/exercicio-3";
+import PropsExercise4 from "./props_exercises - EnzoAntonioFerreiraDeAraujo/exercicio-4";
+import Botao from "./props_exercises - EnzoAntonioFerreiraDeAraujo/desafio";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView06 />
+      <Botao />
     </View>
   );
 }
