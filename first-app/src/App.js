@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
-import FormularioExemplo from "./text_input/formulario";
-import FlatListExemplo from "./flat-list/flatList_example";
+import { NavigationContainer } from "@react-navigation/native";
+import StackNavigator from "./navigation/stack_navigation_examples";
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <FlatListExemplo />
-    </View>
+    <NavigationContainer>
+      <StackNavigator />
+    </NavigationContainer>
   );
 }
 

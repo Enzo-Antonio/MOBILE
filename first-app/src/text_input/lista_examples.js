@@ -38,7 +38,7 @@ export default function ListaDeTarefas() {
                 <FlatList
                     scrollEnabled={true}
                     data={produtos}
-                    keyExtractor={(item) => item.}
+                    keyExtractor={(item) => item.id}
                     renderItem={({ item : aluno }) => (
                         <CardItem nome={aluno.nome} nota={aluno.nota} />
                     )}
