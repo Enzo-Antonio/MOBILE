@@ -1,12 +1,18 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import HomeScreen from "./HomeScreen";
+import BottomTabNavigator from "./bottom_tab_navigator/bottom_tab_navigator_examples";
+import DetalheScreen from "./DetalheScreen";
 
-const Stack = createNativeStackNavigator()
+const Stack = createNativeStackNavigator();
+
 export default function StackNavigator() {
     return (
-        <StackNavigator initialRouteName='Home'>
-            <Stack.Screen name='Home' component={HomeScreen} />
+        <Stack.Navigator initialRouteName='Home'>
+            <Stack.Screen
+                name='Home'
+                component={BottomTabNavigator}
+                options={{ headerShown: false }}
+            />
             <Stack.Screen name="Detalhe" component={DetalheScreen} />
-        </StackNavigator>
+        </Stack.Navigator>
     )
-}
+}
